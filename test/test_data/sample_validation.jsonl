@@ -1,0 +1,2 @@
+{"type": "qa", "question": "什么是Python的装饰器？", "answer": "装饰器是一种设计模式，用于在不修改原函数的情况下扩展函数功能。", "code_snippets": [{"file_path": "decorator.py", "code": "@decorator\ndef my_function():\n    pass"}]}
+{"type": "qa", "question": "如何实现单例模式？", "answer": "使用__new__方法确保类只有一个实例。", "code_snippets": [{"file_path": "singleton.py", "code": "class Singleton:\n    _instance = None\n    def __new__(cls):\n        if cls._instance is None:\n            cls._instance = super().__new__(cls)\n        return cls._instance"}]}
