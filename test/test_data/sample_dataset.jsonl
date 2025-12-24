@@ -1,0 +1,3 @@
+{"type": "qa", "question": "这个函数的作用是什么？", "answer": "这个函数用于计算两个数的和。", "code_snippets": [{"file_path": "test.py", "code": "def add(a, b):\n    return a + b"}]}
+{"type": "qa", "question": "如何处理异常情况？", "answer": "使用try-except语句捕获和处理异常。", "code_snippets": [{"file_path": "test.py", "code": "try:\n    result = divide(a, b)\nexcept ZeroDivisionError:\n    print('除数不能为零')"}]}
+{"type": "design", "question": "如何设计一个用户认证系统？", "answer": "需要包含用户注册、登录、密码加密等功能模块。", "code_snippets": []}
