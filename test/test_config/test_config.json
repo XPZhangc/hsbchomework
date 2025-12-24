@@ -1,0 +1,10 @@
+{
+  "base_model_path": "./models/qwen25_05b",
+  "models_dir": "./output/models/qwen25_05b_lora",
+  "test_dir": "./test/test_data",
+  "output_dir": "./test/test_output",
+  "max_samples": 10,
+  "use_sampling": false,
+  "temperature": 0.2,
+  "device": "cuda"
+}
