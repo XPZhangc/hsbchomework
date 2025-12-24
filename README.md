@@ -2,7 +2,7 @@
 
 ## 项目概述
 
-本项目是一个完整的训练数据生成和模型微调系统，支持从代码仓库自动生成训练数据，并使用LLaMA-Factory框架对Qwen模型进行LoRA微调。所有项目文件在hsbc.zip中
+本项目是一个完整的训练数据生成和模型微调系统，支持从代码仓库自动生成训练数据，并使用LLaMA-Factory框架对Qwen模型进行LoRA微调。
 
 ## 核心功能
 
@@ -387,7 +387,7 @@ python evaluate_models.py --base-model ./models/qwen25_05b
 
 ### ⚠️ GitHub上传注意事项
 
-**为上传GitHub，删除以下模型文件**：
+**为上传GitHub，请删除以下模型文件**：
 
 1. **原始模型文件**：
    - `./models/qwen25_05b/` - 基础Qwen模型（已通过.gitignore排除）

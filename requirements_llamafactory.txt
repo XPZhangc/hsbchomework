@@ -1,0 +1,20 @@
+# LLaMA-Factory训练依赖
+
+# LLaMA-Factory核心库
+llamafactory>=0.8.0
+
+# 配置文件处理
+pyyaml>=6.0
+
+# 数据处理（如果还没有安装）
+pandas>=1.5.0
+pyarrow>=10.0.0
+
+# 绘图（用于loss曲线）
+matplotlib>=3.5.0
+
+# PyTorch（如果还没有安装）
+# torch>=2.0.0
+
+# Transformers（LLaMA-Factory依赖）
+# transformers>=4.30.0
